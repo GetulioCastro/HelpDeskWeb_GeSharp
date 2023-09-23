@@ -3,8 +3,8 @@
 ![Build Status](https://img.shields.io/badge/build-passing-success) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Overview
-
-HelpDesk is an IT ticketing system built to streamline the process of receiving and resolving requests for support from IT services. This project is developed using ASP.NET and C#. It's the perfect solution for any organization looking to improve its IT service management.
+HelpDesk was developed as a group project for our capstone course, serving as the culminating experience of our undergraduate degree.
+It is an IT ticketing system built to streamline the process of receiving and resolving requests for support from IT services. This project is developed using ASP.NET and C#.
 
 ## Features
 
