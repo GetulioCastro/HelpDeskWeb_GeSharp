@@ -1,0 +1,68 @@
+﻿@page
+@model Hweb.Pages.Request.RequestsListModel
+
+@{
+    ViewData["Title"] = "RequestsList";
+}
+
+<h1>Request List</h1>
+
+<p>
+    @if (!User.IsInRole("Admin"))
+    {
+        <a asp-page="Create">Create New</a>
+    }
+    else
+    {
+        <a asp-page="MyRequests">Assigned requests</a>
+    }
+    <a asp-page="/Logout" class="btn btn-primary">Logout</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Requests[0].request_department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requests[0].time_submitted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requests[0].time_completed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requests[0].request_status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requests[0].request_title)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Requests) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.request_department)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.time_submitted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.time_completed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.request_status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.request_title)
+            </td>
+            <td>
+                <a asp-page="./Assign" asp-route-id="@item.requestID">Assign</a> |
+                <a asp-page="./Details" asp-route-id="@item.requestID">Details</a> |
+                <a asp-page="./Edit" asp-route-id="@item.requestID">Edit</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

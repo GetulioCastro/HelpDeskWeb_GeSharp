@@ -1,0 +1,67 @@
+﻿@page
+@model Hweb.Pages.Request.MyRequestsModel
+
+@{
+    ViewData["Title"] = "MyRequests";
+}
+
+<h1>MyRequests</h1>
+
+<p>
+    <a asp-page="/Request/CreateRequests">Create New</a>
+    <a asp-page="/Logout" class="btn btn-primary">Logout</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.userRequests[0].Requests.request_department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userRequests[0].Requests.time_submitted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userRequests[0].Requests.time_completed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userRequests[0].Requests.request_status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userRequests[0].Requests.request_description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userRequests[0].Requests.request_title)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.userRequests) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Requests.request_department)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Requests.time_submitted)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Requests.time_completed)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Requests.request_status)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Requests.request_description)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Requests.request_title)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.requestID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.requestID">Details</a>
+                @*<a asp-page="./Delete" asp-route-id="@item.requestID">Delete</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
