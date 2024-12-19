@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Hweb",
-    "\\Hweb\\Migrations",
-    "\\Hweb\\Pages",
-    "\\Hweb\\Pages\\Request",
-    "\\Hweb\\Pages\\Shared"
+    "\\Hweb\\Migrations"
   ],
-  "SelectedNode": "\\Hweb\\Pages\\Index.cshtml",
+  "SelectedNode": "\\Hweb.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -2,21 +2,21 @@
 @model Hweb.Pages.Request.RequestsListModel
 
 @{
-    ViewData["Title"] = "RequestsList";
+    ViewData["Title"] = "Abertura de Chamado";
 }
 
-<h1>Request List</h1>
+<h1>@ViewData["Title"]</h1>
 
 <p>
     @if (!User.IsInRole("Admin"))
     {
-        <a asp-page="Create">Create New</a>
+        <a asp-page="Create">Novo chamado</a>
     }
     else
     {
-        <a asp-page="MyRequests">Assigned requests</a>
+        <a asp-page="MyRequests">Minha lista</a>
     }
-    <a asp-page="/Logout" class="btn btn-primary">Logout</a>
+    <a asp-page="/Logout" class="btn btn-primary">Sair</a>
 </p>
 <table class="table">
     <thead>
@@ -59,8 +59,8 @@
             </td>
             <td>
                 <a asp-page="./Assign" asp-route-id="@item.requestID">Assign</a> |
-                <a asp-page="./Details" asp-route-id="@item.requestID">Details</a> |
-                <a asp-page="./Edit" asp-route-id="@item.requestID">Edit</a>
+                <a asp-page="./Details" asp-route-id="@item.requestID">Detalhes</a> |
+                <a asp-page="./Edit" asp-route-id="@item.requestID">Editar</a>
             </td>
         </tr>
 }

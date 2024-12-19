@@ -2,10 +2,10 @@
 @model Hweb.Pages.Request.MyRequestsModel
 
 @{
-    ViewData["Title"] = "MyRequests";
+    ViewData["Title"] = "Meus chamados";
 }
 
-<h1>Meu Chamado</h1>
+<h1>@ViewData["Title"]</h1>
 
 <p>
     <a asp-page="/Request/CreateRequests">Novo chamado</a>
@@ -57,8 +57,8 @@
                     @Html.DisplayFor(modelItem => item.Requests.request_title)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.requestID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.requestID">Details</a>
+                <a asp-page="./Edit" asp-route-id="@item.requestID">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.requestID">Detalhes</a>
                 @*<a asp-page="./Delete" asp-route-id="@item.requestID">Delete</a>*@
             </td>
         </tr>
