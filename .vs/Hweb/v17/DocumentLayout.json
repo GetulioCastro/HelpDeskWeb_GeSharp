@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|c:\\users\\getulio\\source\\repos\\helpdeskweb_gesharp\\hweb\\pages\\request\\assign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|solutionrelative:hweb\\pages\\request\\assign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|c:\\users\\getulio\\source\\repos\\helpdeskweb_gesharp\\hweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|solutionrelative:hweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|c:\\users\\getulio\\source\\repos\\helpdeskweb_gesharp\\hweb\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|solutionrelative:hweb\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|c:\\users\\getulio\\source\\repos\\helpdeskweb_gesharp\\hweb\\pages\\request\\requestslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|solutionrelative:hweb\\pages\\request\\requestslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|c:\\users\\getulio\\source\\repos\\helpdeskweb_gesharp\\hweb\\pages\\request\\myrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1529953F-0C85-435D-9298-B7CA7195D711}|Hweb\\Hweb.csproj|solutionrelative:hweb\\pages\\request\\myrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,67 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Hweb\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Hweb\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T20:22:46.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Hweb\\Pages\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Logout.cshtml",
-              "RelativeToolTip": "Hweb\\Pages\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:29:44.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Assign.cshtml",
               "DocumentMoniker": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\Assign.cshtml",
               "RelativeDocumentMoniker": "Hweb\\Pages\\Request\\Assign.cshtml",
-              "ToolTip": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\Assign.cshtml",
-              "RelativeToolTip": "Hweb\\Pages\\Request\\Assign.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\Assign.cshtml*",
+              "RelativeToolTip": "Hweb\\Pages\\Request\\Assign.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:27:36.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyRequests.cshtml",
-              "DocumentMoniker": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\MyRequests.cshtml",
-              "RelativeDocumentMoniker": "Hweb\\Pages\\Request\\MyRequests.cshtml",
-              "ToolTip": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\MyRequests.cshtml",
-              "RelativeToolTip": "Hweb\\Pages\\Request\\MyRequests.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADwAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:26:21.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequestsList.cshtml",
-              "DocumentMoniker": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\RequestsList.cshtml",
-              "RelativeDocumentMoniker": "Hweb\\Pages\\Request\\RequestsList.cshtml",
-              "ToolTip": "C:\\Users\\Getulio\\source\\repos\\HelpDeskWeb_GeSharp\\Hweb\\Pages\\Request\\RequestsList.cshtml",
-              "RelativeToolTip": "Hweb\\Pages\\Request\\RequestsList.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAD0AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:22:49.624Z",
+              "WhenOpened": "2024-12-20T19:35:20.661Z",
               "EditorCaption": ""
             }
           ]
